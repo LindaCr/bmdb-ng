@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MovieListComponent } from './features/movie/movie-list.component';
 import { ActorListComponent } from './features/actor/actor-list.component';
+import { CreditListComponent } from './features/credit/credit-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
-    ActorListComponent
+    ActorListComponent,
+    CreditListComponent
   ],
   imports: [
     BrowserModule,
