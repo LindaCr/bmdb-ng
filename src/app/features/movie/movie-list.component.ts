@@ -10,6 +10,7 @@ import { MovieService } from 'src/app/service/movie.service';
 export class MovieListComponent implements OnInit {
 
   movies: Movie[]= [];
+  title:string= "List of Movies";
 
   constructor(
     private movieSvc: MovieService

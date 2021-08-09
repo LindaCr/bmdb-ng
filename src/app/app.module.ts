@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './features/movie/movie-list.component';
 import { ActorListComponent } from './features/actor/actor-list.component';
 import { CreditListComponent } from './features/credit/credit-list.component';
+import { MenuComponent } from './core/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieListComponent,
     ActorListComponent,
-    CreditListComponent
+    CreditListComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
