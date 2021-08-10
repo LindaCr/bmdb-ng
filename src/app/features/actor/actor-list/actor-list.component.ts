@@ -10,7 +10,7 @@ import { ActorService } from 'src/app/service/actor.service';
 export class ActorListComponent implements OnInit {
 
   actors: Actor[]= [];
-
+  title: string="List of Actors";
   constructor(
     private actorSvc: ActorService
   ) { }

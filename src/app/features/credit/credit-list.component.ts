@@ -10,7 +10,7 @@ import { CreditService } from 'src/app/service/credit.service';
 export class CreditListComponent implements OnInit {
 
   credits: Credit[]= [];
-
+  title: string="List of Credits";
   constructor(
     private creditSvc: CreditService
   ) { }
