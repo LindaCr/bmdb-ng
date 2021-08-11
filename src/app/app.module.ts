@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MovieListComponent } from './features/movie/movie-list/movie-list.component';
 import { ActorListComponent } from './features/actor/actor-list/actor-list.component';
-import { CreditListComponent } from './features/credit/credit-list.component';
+import { CreditListComponent } from './features/credit/credit-list/credit-list.component';
 import { MenuComponent } from './core/menu/menu.component';
 import { MovieCreateComponent } from './features/movie/movie-create/movie-create.component';
 import { MovieEditComponent } from './features/movie/movie-edit/movie-edit.component';
@@ -16,6 +16,9 @@ import { MovieDetailComponent } from './features/movie/movie-detail/movie-detail
 import { ActorDetailComponent } from './features/actor/actor-detail/actor-detail.component';
 import { ActorCreateComponent } from './features/actor/actor-create/actor-create.component';
 import { ActorEditComponent } from './features/actor/actor-edit/actor-edit.component';
+import { CreditDetailComponent } from './features/credit/credit-detail/credit-detail.component';
+import { CreditEditComponent } from './features/credit/credit-edit/credit-edit.component';
+import { CreditCreateComponent } from './features/credit/credit-create/credit-create.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { ActorEditComponent } from './features/actor/actor-edit/actor-edit.compo
     MovieDetailComponent,
     ActorDetailComponent,
     ActorCreateComponent,
-    ActorEditComponent
+    ActorEditComponent,
+    CreditDetailComponent,
+    CreditEditComponent,
+    CreditCreateComponent
   ],
   imports: [
     BrowserModule,

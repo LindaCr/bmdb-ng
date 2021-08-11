@@ -31,6 +31,6 @@ export class ActorService {
   }
 
   delete(id: number): Observable<Actor> {
-    return this.http.delete(URL+'/'+id) as Observable<Actor>
+    return this.http.delete(URL+'/'+id) as Observable<Actor>;
   }
 }

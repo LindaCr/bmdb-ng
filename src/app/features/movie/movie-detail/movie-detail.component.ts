@@ -12,7 +12,7 @@ export class MovieDetailComponent implements OnInit {
 
   title: string= 'Movie-Detail';
   movie: Movie= new Movie();
-  movieId: number=0;
+  movieId: number=0; 
 
   constructor(
     private movieSvc: MovieService,

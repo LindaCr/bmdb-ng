@@ -4,7 +4,10 @@ import { ActorCreateComponent } from './features/actor/actor-create/actor-create
 import { ActorDetailComponent } from './features/actor/actor-detail/actor-detail.component';
 import { ActorEditComponent } from './features/actor/actor-edit/actor-edit.component';
 import { ActorListComponent } from './features/actor/actor-list/actor-list.component';
-import { CreditListComponent } from './features/credit/credit-list.component';
+import { CreditCreateComponent } from './features/credit/credit-create/credit-create.component';
+import { CreditDetailComponent } from './features/credit/credit-detail/credit-detail.component';
+import { CreditEditComponent } from './features/credit/credit-edit/credit-edit.component';
+import { CreditListComponent } from './features/credit/credit-list/credit-list.component';
 import { MovieCreateComponent } from './features/movie/movie-create/movie-create.component';
 import { MovieDetailComponent } from './features/movie/movie-detail/movie-detail.component';
 import { MovieEditComponent } from './features/movie/movie-edit/movie-edit.component';
@@ -21,6 +24,9 @@ const routes: Routes = [
   { path: 'actor-create', component:ActorCreateComponent},
   { path: 'actor-edit/:id', component:ActorEditComponent},
   { path: 'credit-list', component:CreditListComponent},
+  { path: 'credit-detail/:id', component:CreditDetailComponent},
+  { path: 'credit-create', component:CreditCreateComponent},
+  { path: 'credit-edit/:id', component:CreditEditComponent},
   { path: '**', component:MovieListComponent}
 ];
 
