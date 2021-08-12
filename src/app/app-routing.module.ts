@@ -12,6 +12,11 @@ import { MovieCreateComponent } from './features/movie/movie-create/movie-create
 import { MovieDetailComponent } from './features/movie/movie-detail/movie-detail.component';
 import { MovieEditComponent } from './features/movie/movie-edit/movie-edit.component';
 import { MovieListComponent } from './features/movie/movie-list/movie-list.component';
+import { UserCreateComponent } from './features/user/user-create/user-create.component';
+import { UserDetailComponent } from './features/user/user-detail/user-detail.component';
+import { UserEditComponent } from './features/user/user-edit/user-edit.component';
+import { UserListComponent } from './features/user/user-list/user-list.component';
+import { UserLoginComponent } from './features/user/user-login/user-login.component';
 
 const routes: Routes = [
   { path: '', redirectTo:'/movie-list', pathMatch:'full'},
@@ -27,6 +32,11 @@ const routes: Routes = [
   { path: 'credit-detail/:id', component:CreditDetailComponent},
   { path: 'credit-create', component:CreditCreateComponent},
   { path: 'credit-edit/:id', component:CreditEditComponent},
+  { path: 'user-login', component:UserLoginComponent},
+  { path: 'user-list', component:UserListComponent},
+  { path: 'user-detail/:id', component:UserDetailComponent},
+  { path: 'user-create', component:UserCreateComponent},
+  { path: 'user-edit/:id', component:UserEditComponent},
   { path: '**', component:MovieListComponent}
 ];
 
