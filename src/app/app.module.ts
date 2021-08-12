@@ -19,6 +19,11 @@ import { ActorEditComponent } from './features/actor/actor-edit/actor-edit.compo
 import { CreditDetailComponent } from './features/credit/credit-detail/credit-detail.component';
 import { CreditEditComponent } from './features/credit/credit-edit/credit-edit.component';
 import { CreditCreateComponent } from './features/credit/credit-create/credit-create.component';
+import { UserListComponent } from './features/user/user-list/user-list.component';
+import { UserCreateComponent } from './features/user/user-create/user-create.component';
+import { UserDetailComponent } from './features/user/user-detail/user-detail.component';
+import { UserEditComponent } from './features/user/user-edit/user-edit.component';
+import { UserLoginComponent } from './features/user/user-login/user-login.component';
 
 
 @NgModule({
@@ -36,7 +41,12 @@ import { CreditCreateComponent } from './features/credit/credit-create/credit-cr
     ActorEditComponent,
     CreditDetailComponent,
     CreditEditComponent,
-    CreditCreateComponent
+    CreditCreateComponent,
+    UserListComponent,
+    UserCreateComponent,
+    UserDetailComponent,
+    UserEditComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,
